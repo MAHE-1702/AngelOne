@@ -1,0 +1,16 @@
+{
+  "name": "angelone-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AngelOne read-only portfolio MCP server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.0.0",
+    "otpauth": "^9.5.1"
+  }
+}
